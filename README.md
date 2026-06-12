@@ -1,4 +1,4 @@
-### AI Powered SQL Assistant 🚀
+# AI Powered SQL Assistant 🚀
 An AI-powered SQL Assistant that allows users to query databases using natural language. The system automatically converts user questions into SQL queries, executes them on a SQLite database, and displays structured results through an interactive web interface.
 
 # Overview
@@ -17,7 +17,7 @@ FROM products
 ORDER BY price DESC
 LIMIT 1;
 
-# Result
+**Result**
 
 Laptop Pro
 Price: 1499
@@ -35,7 +35,7 @@ Price: 1499
 * Modern Responsive UI
 * FastAPI Backend API
 
-## Technology Stack
+# Technology Stack
 
 **Backend**
 
@@ -58,7 +58,7 @@ JavaScript
 
 SQLite
 
-## Project Structure
+# Project Structure
 
 AI Powered SQL Assistants/
 │
@@ -150,7 +150,8 @@ This project was developed for educational purposes, AI engineering practice, an
 
 <img width="1891" height="905" alt="Screenshot 2026-06-12 162226" src="https://github.com/user-attachments/assets/0c5f5233-a3d0-4d19-90a7-d3a01c271b05" />
 <img width="1896" height="910" alt="Screenshot 2026-06-12 162356" src="https://github.com/user-attachments/assets/49ffa630-ca43-4ad2-8694-7a2c6b051044" />
-<img width="1916" height="967" alt="Screenshot 2026-06-12 164044" src="https://github.com/user-attachments/assets/bc2c73de-93cf-4798-a999-e3c6412e8c07" />
+<img width="1911" height="901" alt="Screenshot 2026-06-11 203545" src="https://github.com/user-attachments/assets/02c02af1-2237-4df2-a78b-455c4622745b" />
+
 
 
 
