@@ -129,6 +129,7 @@ AI Powered SQL Assistants/
 # User Interface
 
 **Main Dashboard**
+
 The application provides:
 
 * Database schema viewer
