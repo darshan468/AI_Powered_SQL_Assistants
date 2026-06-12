@@ -1,4 +1,4 @@
-###**AI Powered SQL Assistant 🚀**
+### AI Powered SQL Assistant 🚀
 An AI-powered SQL Assistant that allows users to query databases using natural language. The system automatically converts user questions into SQL queries, executes them on a SQLite database, and displays structured results through an interactive web interface.
 
 # Overview
