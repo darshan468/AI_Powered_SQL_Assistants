@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI SQL Assistant | Professional Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=JetBrains+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-database"></i>
+                <span>SQL Assistant</span>
+            </div>
+            <div class="schema-viewer">
+                <h3><i class="fas fa-project-diagram"></i> Database Schema</h3>
+                <div id="schema-content" class="loading-schema">Loading schema...</div>
+            </div>
+            <div class="sidebar-footer">
+                <p>Developed by<br><strong>Darshan</strong></p>
+            </div>
+        </aside>
+
+        <main class="chat-interface">
+            <header class="chat-header">
+                <div class="header-info">
+                    <h1>AI Universal Assistant</h1>
+
+                    <span class="status-badge"><span class="pulse"></span> System Ready</span>
+                </div>
+            </header>
+
+            <div id="chat-messages" class="chat-messages">
+                <div class="message bot">
+                    <div class="avatar"><i class="fas fa-robot"></i></div>
+                    <div class="content">
+                        Hello! I am your Universal AI Assistant. I can help you with database queries, general coding, creative writing, or any other questions you have!
+                        <div class="suggestions">
+                            <button onclick="useSuggestion('Explain quantum computing like I am five')">Explain Quantum</button>
+                            <button onclick="useSuggestion('Who are our top 3 customers?')">Top Customers</button>
+                            <button onclick="useSuggestion('Write a short poem about databases')">Write a Poem</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <input type="text" id="user-input" placeholder="Ask me anything..." autocomplete="off">
+
+                    <button id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Modals for results etc if needed -->
+    <script src="app.js"></script>
+</body>
+</html>
